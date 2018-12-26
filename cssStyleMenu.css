@@ -1,0 +1,10 @@
+tr:nth-child(even) {
+   background-color: #fff
+}
+tr:nth-child(even) {
+   background-color: burlywood
+}
+
+th {
+    text-align: left:left
+}

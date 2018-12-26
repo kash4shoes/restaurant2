@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+  <link rel="stylesheet" type="text/css" href="restaurantStyles.css">
+        <title>Contact</title>
+        <style>
+        body {
+        background-color: burlywood;
+    }
+        a:link {
+        color:green
+    }
+        a:visited {
+        color: red
+    }
+        a:hover {
+        font-weight: bold;
+    }
+
+
+        </style>
+    </head>
+    <body>
+
+
+          <nav>
+          <hr />
+          <p><a href="home.html">Home</a>
+          <a href="menu.html">Menu</a>
+          <a href="contact.html">Contact Us</a></p>
+          <hr />
+          </nav>
+
+          <h1>Contact Us</h1>
+          <p><strong>Bolded fields are required</strong></p>
+          <form action="FakePage.html" method="POST">
+            <strong>First Name:</strong><input type="text" name="myTextInput" required/>
+            <strong>Last Name:</strong><input type="text" name="myTextInput" required/>
+            <p><strong>Phone:</strong><input type="text" name="myTextInput" required />
+
+            <p>Reason for Inquiry:<select name="Reason for Inquiry"></p>
+              <option value="Catering">Catering</option>
+              <option value="Private Party">Private Party</option>
+              <option value="Feedback">Feedback</option>
+              <option value="Other">Other</option><br />
+    </select>
+    <p>Additional Information:<textarea name="Additional Information"></textarea><br />
+            <p>Have you been to Friend Chicken before?<br /></p>
+              <input type="radio" name="answer" value="YES" unchecked />Yes<br />
+                <input type="radio" name="answer" value="NO" unchecked />No<br />
+    <p>Best days to contact you:</p>
+    <strong><input type="checkbox" name="myChoices" value="Monday" unchecked required /> Monday<br /></strong>
+        <strong><input type="checkbox" name="myChoices" value="Tuesday" unchecked required /> Tuesday<br /></strong>
+          <strong><input type="checkbox" name="myChoices" value="Wednesday" unchecked required /> Wednesday<br /></strong>
+            <strong><input type="checkbox" name="myChoices" value="Thursday" unchecked required/> Thursday<br /></strong>
+              <strong><input type="checkbox" name="myChoices" value="Friday" unchecked required/> Friday<br /></strong>
+            <input type="submit"/><br />
+
+          </form>
+
+          <footer>
+          <hr />
+          <p><center>5500 Happy St, Minneapolis, MN, 56789</center></p>
+          <p><center>(651)-123-4567</center></p>
+          </footer>
+        </body>
+        </html>
